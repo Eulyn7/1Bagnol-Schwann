@@ -1,0 +1,28 @@
+import turtle
+
+# Initialize turtle and screen
+t = turtle.Turtle()
+
+s = turtle.Screen()
+s.bgcolor('grey')   # Set screen background color
+t.pencolor('cyan')  # Set turtle pen color
+
+# Initial variables
+a = 0
+b = 0
+t.speed(0)  # Set turtle speed to maximum
+t.penup()   # Lift pen to move without drawing
+t.goto(0, 200)  # Move to starting position
+t.pendown() # Put pen down to start drawing
+
+# Drawing loop
+while True:
+    t.forward(a)    # Move forward by 'a'
+    t.right(b)  # Move forward by 'a'
+    a += 3  # Increase forward movement
+    b += 1  # Increase angle
+    if b == 210:    # Stop the loop when 'b' reaches 210
+        break  # Stop the loop when b equals 210
+
+# Turtle will stay visible after the loop ends
+turtle.done()
