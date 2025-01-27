@@ -1,0 +1,13 @@
+1. Project title
+   Spiral design
+
+2. What is the purpose of your project? Tell about your project.
+   This project creates a graphical pattern using Python's Turtle module. The turtle draws a spiral-like shape by moving forward with increasing distances and turning large angles. 
+   The background is set to grey, and the pen color is cyan for better visual. The program stops drawing when a preset angle limit is reached, leaving the turtle visible in its final 
+   position. This project is a simple yet effective way to visualize geometric patterns and explore the capabilities of the Turtle graphics.
+
+3. How your program works? Explain how to run your program.
+   To run the program, copy the code into a Python file, make sure Python is installed on your computer or laptop, and execute it directly from the terminal then it will start to run the code. A window will 
+   open displaying the turtle's drawing. It starts a turtle object on a screen with a grey background and a cyan-colored pen. The turtle starts at the coordinates (0, 200) and draws a spiral by moving forward 
+   by an increasing distance (a) and turning right by an increasing angle (b). The loop continues until the angle incrcreases (b) reaches 210, at which point the turtle stops drawing but still remains visible 
+   in its final position.
